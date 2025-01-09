@@ -24,7 +24,7 @@ cp minilab3.qxi ~/Library/Application\ Support/QLC+/inputprofiles/
 
 ## 🎹 MIDI Control Center Profile
 
-Using the Arturia [Midi Control Center](https://www.arturia.com/de/technology/mcc), the custom Profile can be loaded onto the Minilab 3 Controller. Unfortunately ths seems to be released only for Windows (maybe wine works, not tested), but is only necessary once.
+Using the Arturia [Midi Control Center](https://www.arturia.com/de/technology/mcc), the custom Profile can be loaded onto the Minilab 3 Controller. Unfortunately this seems to be released only for Windows (maybe wine works, not tested), but is only necessary once.
 
 Open the MIDI Control Center and install the profile as shown below:
 
