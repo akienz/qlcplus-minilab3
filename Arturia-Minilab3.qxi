@@ -1,0 +1,637 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE InputProfile>
+<InputProfile xmlns="http://www.qlcplus.org/InputProfile">
+ <Creator>
+  <Name>Q Light Controller Plus</Name>
+  <Version>4.13.1</Version>
+  <Author>André Kienzle</Author>
+ </Creator>
+ <Manufacturer>Arturia</Manufacturer>
+ <Model>Minilab 3</Model>
+ <Type>MIDI</Type>
+ <Channel Number="1">
+  <Name>Mod Wheel</Name>
+  <Type>Slider</Type>
+ </Channel>
+ <Channel Number="16">
+  <Name>Knob 8</Name>
+  <Type>Knob</Type>
+ </Channel>
+ <Channel Number="17">
+  <Name>Fader 4</Name>
+  <Type>Slider</Type>
+ </Channel>
+ <Channel Number="18">
+  <Name>Knob 6</Name>
+  <Type>Knob</Type>
+ </Channel>
+ <Channel Number="19">
+  <Name>Knob 7</Name>
+  <Type>Knob</Type>
+ </Channel>
+ <Channel Number="20">
+  <Name>Pad Bank A - 1</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="21">
+  <Name>Pad Bank A - 2</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="22">
+  <Name>Pad Bank A - 3</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="23">
+  <Name>Pad Bank A - 4</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="24">
+  <Name>Pad Bank A - 5</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="25">
+  <Name>Pad Bank A - 6</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="26">
+  <Name>Pad Bank A - 7</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="27">
+  <Name>Pad Bank A - 8</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="52">
+  <Name>Pad Bank B - 1</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="53">
+  <Name>Pad Bank B - 2</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="54">
+  <Name>Pad Bank B - 3</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="55">
+  <Name>Pad Bank B - 4</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="56">
+  <Name>Pad Bank B - 5</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="57">
+  <Name>Pad Bank B - 6</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="58">
+  <Name>Pad Bank B - 7</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="59">
+  <Name>Pad Bank B - 8</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="71">
+  <Name>Knob 2</Name>
+  <Type>Knob</Type>
+ </Channel>
+ <Channel Number="74">
+  <Name>Knob 1</Name>
+  <Type>Knob</Type>
+ </Channel>
+ <Channel Number="76">
+  <Name>Knob 3</Name>
+  <Type>Knob</Type>
+ </Channel>
+ <Channel Number="77">
+  <Name>Knob 4</Name>
+  <Type>Knob</Type>
+ </Channel>
+ <Channel Number="82">
+  <Name>Fader 1</Name>
+  <Type>Slider</Type>
+ </Channel>
+ <Channel Number="83">
+  <Name>Fader 2</Name>
+  <Type>Slider</Type>
+ </Channel>
+ <Channel Number="85">
+  <Name>Fader 3</Name>
+  <Type>Slider</Type>
+ </Channel>
+ <Channel Number="93">
+  <Name>Knob 5</Name>
+  <Type>Knob</Type>
+ </Channel>
+ <Channel Number="112">
+  <Name>Shift Encoder</Name>
+  <Type>Encoder</Type>
+  <Movement Sensitivity="1" />
+ </Channel>
+ <Channel Number="113">
+  <Name>Shift Encoder Press</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="114">
+  <Name>Encoder</Name>
+  <Type>Encoder</Type>
+  <Movement Sensitivity="1" />
+ </Channel>
+ <Channel Number="115">
+  <Name>Encoder Press</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="128">
+  <Name>Note C-2</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="129">
+  <Name>Note C#-2</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="130">
+  <Name>Note D-2</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="131">
+  <Name>Note D#-2</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="132">
+  <Name>Note E-2</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="133">
+  <Name>Note F-2</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="134">
+  <Name>Note F#-2</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="135">
+  <Name>Note G-2</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="136">
+  <Name>Note G#-2</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="137">
+  <Name>Note A-2</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="138">
+  <Name>Note A#-2</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="139">
+  <Name>Note B-2</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="140">
+  <Name>Note C-1</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="141">
+  <Name>Note C#-1</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="142">
+  <Name>Note D-1</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="143">
+  <Name>Note D#-1</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="144">
+  <Name>Note E-1</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="145">
+  <Name>Note F-1</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="146">
+  <Name>Note F#-1</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="147">
+  <Name>Note G-1</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="148">
+  <Name>Note G#-1</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="149">
+  <Name>Note A-1</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="150">
+  <Name>Note A#-1</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="151">
+  <Name>Note B-1</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="152">
+  <Name>Note C0</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="153">
+  <Name>Note C#0</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="154">
+  <Name>Note D0</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="155">
+  <Name>Note D#0</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="156">
+  <Name>Note E0</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="157">
+  <Name>Note F0</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="158">
+  <Name>Note F#0</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="159">
+  <Name>Note G0</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="160">
+  <Name>Note G#0</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="161">
+  <Name>Note A0</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="162">
+  <Name>Note A#0</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="163">
+  <Name>Note B0</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="164">
+  <Name>Note C1</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="165">
+  <Name>Note C#1</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="166">
+  <Name>Note D1</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="167">
+  <Name>Note D#1</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="168">
+  <Name>Note E1</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="169">
+  <Name>Note F1</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="170">
+  <Name>Note F#1</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="171">
+  <Name>Note G1</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="172">
+  <Name>Note G#1</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="173">
+  <Name>Note A1</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="174">
+  <Name>Note A#1</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="175">
+  <Name>Note B1</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="176">
+  <Name>Note C2</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="177">
+  <Name>Note C#2</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="178">
+  <Name>Note D2</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="179">
+  <Name>Note D#2</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="180">
+  <Name>Note E2</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="181">
+  <Name>Note F2</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="182">
+  <Name>Note F#2</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="183">
+  <Name>Note G2</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="184">
+  <Name>Note G#2</Name>
+  <Type>Slider</Type>
+ </Channel>
+ <Channel Number="185">
+  <Name>Note A2</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="186">
+  <Name>Note A#2</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="187">
+  <Name>Note B2</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="188">
+  <Name>Note C3</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="189">
+  <Name>Note C#3</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="190">
+  <Name>Note D3</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="191">
+  <Name>Note D#3</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="192">
+  <Name>Note E3</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="193">
+  <Name>Note F3</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="194">
+  <Name>Note F#3</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="195">
+  <Name>Note G3</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="196">
+  <Name>Note G#3</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="197">
+  <Name>Note A3</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="198">
+  <Name>Note A#3</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="199">
+  <Name>Note B3</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="200">
+  <Name>Note C4</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="201">
+  <Name>Note C#4</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="202">
+  <Name>Note D4</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="203">
+  <Name>Note D#4</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="204">
+  <Name>Note E4</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="205">
+  <Name>Note F4</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="206">
+  <Name>Note F#4</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="207">
+  <Name>Note G4</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="208">
+  <Name>Note G#4</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="209">
+  <Name>Note A4</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="210">
+  <Name>Note A#4</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="211">
+  <Name>Note B4</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="212">
+  <Name>Note C5</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="213">
+  <Name>Note C#5</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="214">
+  <Name>Note D5</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="215">
+  <Name>Note D#5</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="216">
+  <Name>Note E5</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="217">
+  <Name>Note F5</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="218">
+  <Name>Note F#5</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="219">
+  <Name>Note G5</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="220">
+  <Name>Note G#5</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="221">
+  <Name>Note A5</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="222">
+  <Name>Note A#5</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="223">
+  <Name>Note B5</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="224">
+  <Name>Note C6</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="225">
+  <Name>Note C#6</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="226">
+  <Name>Note D6</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="227">
+  <Name>Note D#6</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="228">
+  <Name>Note E6</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="229">
+  <Name>Note F6</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="230">
+  <Name>Note F#6</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="231">
+  <Name>Note G6</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="232">
+  <Name>Note G#6</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="233">
+  <Name>Note A6</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="234">
+  <Name>Note A#6</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="235">
+  <Name>Note B6</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="236">
+  <Name>Note C7</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="237">
+  <Name>Note C#7</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="238">
+  <Name>Note D7</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="239">
+  <Name>Note D#7</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="240">
+  <Name>Note E7</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="241">
+  <Name>Note F7</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="242">
+  <Name>Note F#7</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="243">
+  <Name>Note G7</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="244">
+  <Name>Note G#7</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="245">
+  <Name>Note A7</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="246">
+  <Name>Note A#7</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="247">
+  <Name>Note B7</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="248">
+  <Name>Note C8</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="513">
+  <Name>Pitch Wheel</Name>
+  <Type>Slider</Type>
+ </Channel>
+ <MidiChannelTable>
+  <Channel Value="0" Label="Keyboard" />
+ </MidiChannelTable>
+</InputProfile>
